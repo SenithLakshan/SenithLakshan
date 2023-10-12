@@ -18,28 +18,28 @@ int main(){
 		int sum = 0;
 		
 		//get marks for module 1
-		printf("\nEnter Student %d module mark 1 :",stcount+1,i+1);
+		printf("\nEnter Student %d module mark 1 :",stcount+1);
 		scanf("%d", &st1.mark1);
 		sum += st1.mark1;
 		i++;
 		
 		//get marks for module 2
-		printf("Enter Student %d module mark 2 :",stcount+1,i+1);
+		printf("Enter Student %d module mark 2 :",stcount+1);
 		scanf("%d", &st1.mark2);
 		sum += st1.mark2;
 		i++;
 		
 		//get marks for module 3
-	    printf("Enter Student %d module mark 3 :",stcount+1,i+1);
+	    printf("Enter Student %d module mark 3 :",stcount+1);
 		scanf("%d", &st1.mark3);
 		sum += st1.mark3;
 		i++;
 		
 		//get marks for module 4
-		printf("Enter Student %d module mark 4 :",stcount+1,i+1);
+		printf("Enter Student %d module mark 4 :",stcount+1);
 		scanf("%d", &st1.mark4);
 		sum += st1.mark4;
-		
+		i++;
 		
 		printf("\nsum of mark for student %d = %d\n",stcount+1,sum); //print current number
 		
